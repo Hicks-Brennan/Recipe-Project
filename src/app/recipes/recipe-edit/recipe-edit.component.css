@@ -1,0 +1,12 @@
+.btn {
+    margin: 2.5px;
+}
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched{
+    border: 1px solid red;
+    background-color: rgb(230, 168, 168);
+}
+input.ng-valid.ng-touched, textarea.ng-valid.ng-touched{
+    border: 1px solid green;
+    background-color: rgb(154, 218, 154);
+}
